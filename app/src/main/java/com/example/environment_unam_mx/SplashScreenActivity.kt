@@ -7,9 +7,14 @@ import android.os.Handler
 
 class SplashScreenActivity : AppCompatActivity() {
 
+    companion object {
+        var globalVar = "Created"
+    }
+
     lateinit var handler: Handler
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_splash_screen)
 
         handler = Handler()

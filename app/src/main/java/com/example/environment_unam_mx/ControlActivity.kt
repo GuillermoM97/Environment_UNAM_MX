@@ -14,6 +14,7 @@ import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.control_layout.*
 import java.io.IOException
 import java.util.*
+import com.example.environment_unam_mx.SplashScreenActivity.Companion.globalVar
 
 
 class ControlActivity: AppCompatActivity() {
@@ -90,7 +91,11 @@ class ControlActivity: AppCompatActivity() {
             //database.setValue("UNAM_Mexico_ControlActivity_"+ dbcounter.toString() )
             var prueba1 = 1
             var prueba2 = 2
-            database.child(string_key).setValue(Measurement(string_received,prueba1))
+            var ubicaciones = ""
+            //var classLocTest = LocTest()
+             ubicaciones = globalVar
+            //ubicaciones = objeto.getLocation()
+            database.child(string_key).setValue(Measurement(string_received, coughcounter, sneezecounter,ubicaciones, prueba1))
         }
 
         btnaux.setOnClickListener{
