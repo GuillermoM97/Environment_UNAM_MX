@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Environment_UNAM_MX</string>
+    <string name="refresh">Refresh</string>
+    <string name="try1">Hello Friend</string>
+    <string name="BTnotsupported">This devices does not support Bluetooth</string>
+    <string name="BTenabled">Bluetooth has been enabled</string>
+    <string name="BTdisabled">Bluetooth has been disabled</string>
+    <string name="BTen_cancelled">Bluetooth enabling has been cancelled</string>
+    <string name="NoPairedDevFound">No paired devices found</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="CouldntConnect">Could not connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="Connecting">Connecting...</string>
+    <string name="PlsWait">Please wait</string>
+    <string name="SplashScreenWelcome">Enhancing better understanding of COVID-19</string>
+    <string name="name">Bluetooth Device:_</string>
+    <string name="What2Do1">Please kindly read the manual first</string>
+    <string name="What2Do2">Please click on HC-05</string>
+    <string name="Sneezebtn">External SNEEZE</string>
+    <string name="Coughbtn">External COUGH</string>
+    <string name="SneezeReported">Sneeze reported. Today:</string>
+    <string name="CoughReported">Cough reported. Today:</string>
+    <string name="TestLoc">Test Location</string>
+    <string name="GetLoc">Get location</string>
+    <string name="RqstData">Request Data</string>
+    <string name="LocOk">Loc services ok</string>
+    <string name="GrantPerm">Kindly grant permission and close the app</string>
+    <string name="PermDenied">Permission was denied</string>
+    <string name="Go2Settings">Please go to settings and grant permission</string>
+    <string name="DBSend">DB_Send</string>
+
+</resources>

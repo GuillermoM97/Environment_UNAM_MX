@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "926076505069",
+    "firebase_url": "https://environment-unam-mx-default-rtdb.firebaseio.com",
+    "project_id": "environment-unam-mx",
+    "storage_bucket": "environment-unam-mx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926076505069:android:e828c715646fbe5c0a35e4",
+        "android_client_info": {
+          "package_name": "com.example.environment_unam_mx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926076505069-um6sm6g7s1c720lm72095h6ov7bigo4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsMlc2hIHewdwmymGmIA-s_ZVZaW9i3cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926076505069-um6sm6g7s1c720lm72095h6ov7bigo4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

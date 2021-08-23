@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/covidlogosplash"
+        android:layout_width="350dp"
+        android:layout_height="291dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/covidresponseun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/unamlogosplash"
+        android:layout_width="294dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/unamlogo"
+        app:layout_constraintBottom_toTopOf="@+id/txtbottomsplash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/covidlogosplash"></ImageView>
+
+    <TextView
+        android:id="@+id/txtbottomsplash"
+        android:layout_width="277dp"
+        android:layout_height="134dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/SplashScreenWelcome"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

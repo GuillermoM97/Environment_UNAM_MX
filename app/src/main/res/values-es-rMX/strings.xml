@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Environment_UNAM_MX</string>
+    <string name="refresh">Actualizar</string>
+    <string name="try1">Hola Amigo</string>
+    <string name="BTnotsupported">Este dispositivo no soporta Bluetooth</string>
+    <string name="BTenabled">Bluetooth ha sido activado</string>
+    <string name="BTdisabled">Bluetooth ha sido desactivado</string>
+    <string name="BTen_cancelled">Activación de Bluetooth cancelada</string>
+    <string name="NoPairedDevFound">No se encontraron dispositivos emparejados</string>
+    <string name="on">Encender</string>
+    <string name="off">Apagar</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="CouldntConnect">No se pudo conectar</string>
+    <string name="Connecting">Conectando...</string>
+    <string name="PlsWait">Por favor espere</string>
+    <string name="SplashScreenWelcome">Fomentando un mejor entendimiento de COVID-19</string>
+    <string name="name">Dispositivo Bluetooth: _</string>
+    <string name="What2Do1">Por favor lea primero el manual</string>
+    <string name="What2Do2">Por favor click en  HC-05</string>
+    <string name="Sneezebtn">ESTORNUDO Exterior</string>
+    <string name="Coughbtn">TOS Exterior</string>
+    <string name="SneezeReported">Estornudo reportado. Hoy:</string>
+    <string name="CoughReported">Tos reportada. Hoy:</string>
+    <string name="TestLoc">Probar localización</string>
+    <string name="GetLoc">Obtener ubicación</string>
+    <string name="RqstData">Solicitar datos</string>
+    <string name="LocOk">Servicio de ubicación ok</string>
+    <string name="GrantPerm">"Otorge permiso y cierre el app "</string>
+    <string name="PermDenied">Permiso fue negado</string>
+    <string name="Go2Settings">Por favor vaya a configuración y otorgue permiso</string>
+    <string name="DBSend">BD_Send</string>
+</resources>
