@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.control_layout.*
 import java.io.IOException
 import java.util.*
 import com.example.environment_unam_mx.SplashScreenActivity.Companion.globalVar
-
+import com.example.environment_unam_mx.LocTest
 
 class ControlActivity: AppCompatActivity() {
     //Since we have an inner class, and always member variables are being accessed inside
@@ -93,8 +93,13 @@ class ControlActivity: AppCompatActivity() {
             var prueba2 = 2
             var ubicaciones = ""
             //var classLocTest = LocTest()
-             ubicaciones = globalVar
+            ubicaciones = globalVar
             //ubicaciones = objeto.getLocation()
+            //Log.i("-------------------Will try:","to create LocTest")
+            //var anotherclass = LocTest()
+            //Log.i("-------------------Done:","Created LocTest")
+            //ubicaciones = anotherclass.getLocation()
+            //Log.i("-------------------Done:", "Created ubicaciones"+ubicaciones)
             database.child(string_key).setValue(Measurement(string_received, coughcounter, sneezecounter,ubicaciones, prueba1))
         }
 

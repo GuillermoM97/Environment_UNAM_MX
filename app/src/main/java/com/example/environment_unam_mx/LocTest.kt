@@ -89,6 +89,7 @@ class LocTest : AppCompatActivity() {
                             latitud_measured_gps = locationGps!!.latitude.toString()
                             longitud_measured_gps = locationGps!!.longitude.toString()
                             loc_accuracy_gps = locationNetwork!!.accuracy.toString()
+                            globalVar = Arrays.toString(arrayOf(latitud_measured_gps,longitud_measured_gps,loc_accuracy_gps))
                         }
                     }
 
@@ -124,6 +125,7 @@ class LocTest : AppCompatActivity() {
                             latitud_measured_network = locationNetwork!!.latitude.toString()
                             longitud_measured_network = locationNetwork!!.longitude.toString()
                             loc_accuracy_network = locationNetwork!!.accuracy.toString()
+                            globalVar = Arrays.toString(arrayOf(latitud_measured_network,longitud_measured_network,loc_accuracy_network))
                         }
                     }
 
