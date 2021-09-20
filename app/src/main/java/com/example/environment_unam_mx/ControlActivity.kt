@@ -6,16 +6,20 @@ import android.bluetooth.BluetoothDevice
 import android.bluetooth.BluetoothSocket
 import android.content.Context
 import android.os.AsyncTask
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.control_layout.*
 import java.io.IOException
 import java.util.*
 import com.example.environment_unam_mx.SplashScreenActivity.Companion.globalVar
+import java.time.LocalTime
 import com.example.environment_unam_mx.LocTest
+import java.time.LocalDate
 
 class ControlActivity: AppCompatActivity() {
     //Since we have an inner class, and always member variables are being accessed inside
@@ -56,6 +60,7 @@ class ControlActivity: AppCompatActivity() {
 
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -100,7 +105,12 @@ class ControlActivity: AppCompatActivity() {
             //Log.i("-------------------Done:","Created LocTest")
             //ubicaciones = anotherclass.getLocation()
             //Log.i("-------------------Done:", "Created ubicaciones"+ubicaciones)
-            database.child(string_key).setValue(Measurement(string_received, coughcounter, sneezecounter,ubicaciones, prueba1))
+            //Time
+            val currentTime = LocalTime.now()
+            val currentDate = LocalDate.now()
+            var current_time_to_db = currentTime.toString()
+            var current_date_to_db = currentDate.toString()
+            database.child(string_key).setValue(Measurement(string_received, coughcounter, sneezecounter,ubicaciones, prueba1, current_time_to_db, current_date_to_db))
         }
 
         btnaux.setOnClickListener{
